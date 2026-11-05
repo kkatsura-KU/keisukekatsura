@@ -1,12 +1,12 @@
 :root{
 --bg:#f6f7f4;--fg:#1b211c;--muted:#6b736c;--accent:#1f7a4d;--accent2:#c9a227;
 --card:#ffffff;--line:#e3e6e0;--shadow:0 6px 24px rgba(20,40,25,.07);
---head:"Inter","Noto Sans JP",sans-serif;
+--head:"Nunito","Zen Maru Gothic",sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{--bg:#0f1311;--fg:#e9ece7;--muted:#98a199;--accent:#5fd19a;--accent2:#e0bd4a;--card:#171c19;--line:#262d28;--shadow:0 6px 24px rgba(0,0,0,.35)}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.9;letter-spacing:.02em;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Nunito","Zen Maru Gothic","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.9;letter-spacing:.02em;-webkit-font-smoothing:antialiased}
 a{color:var(--accent);text-underline-offset:3px}
 header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .bar{max-width:1000px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:8px 28px;align-items:center;justify-content:space-between}
@@ -35,6 +35,8 @@ small{font-size:.8rem}
 footer{text-align:center;color:var(--muted);font-family:var(--head);font-size:.8rem;padding:28px 16px;border-top:1px solid var(--line)}
 @media(max-width:600px){nav a{margin:0 16px 0 0}.hero{min-height:340px}.card{padding:18px}}
 .conf{margin:-8px 0 10px;font-size:.9rem}
+.hero h1:lang(ja),.hero h1:has(small){font-size:clamp(1.7rem,4.6vw,2.8rem);line-height:1.4}
+.hero h1 small{display:block;margin-top:12px;font-size:max(.62em,1.05rem);font-weight:500;opacity:.9;letter-spacing:.04em;line-height:1.6}
 .eyebrow{font-family:var(--head);font-size:.95rem;letter-spacing:.06em;margin-bottom:12px;opacity:.9}
 .career{display:grid;grid-template-columns:8.5em 1fr;gap:6px 16px;margin:0 0 8px}
 .career dt{font-family:var(--head);font-weight:600;color:var(--accent)}
