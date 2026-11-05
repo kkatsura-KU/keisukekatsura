@@ -37,6 +37,8 @@ footer{text-align:center;color:var(--muted);font-family:var(--head);font-size:.8
 .conf{margin:-8px 0 10px;font-size:.9rem}
 .hero h1:lang(ja),.hero h1:has(small){font-size:clamp(1.7rem,4.6vw,2.8rem);line-height:1.4}
 .hero h1 small{display:block;margin-top:12px;font-size:max(.62em,1.05rem);font-weight:500;opacity:.9;letter-spacing:.04em;line-height:1.6}
+.yt{display:inline-block;margin-left:10px;vertical-align:-3px;line-height:0;transition:.2s}
+.yt:hover{opacity:.75;transform:translateY(-1px)}
 .eyebrow{font-family:var(--head);font-size:.95rem;letter-spacing:.06em;margin-bottom:12px;opacity:.9}
 .career{display:grid;grid-template-columns:8.5em 1fr;gap:6px 16px;margin:0 0 8px}
 .career dt{font-family:var(--head);font-weight:600;color:var(--accent)}
