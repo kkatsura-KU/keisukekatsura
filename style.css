@@ -29,6 +29,8 @@ h2::before{content:"";width:28px;height:3px;background:var(--accent);border-radi
 .news li{padding:12px 0;border-bottom:1px solid var(--line)}
 .news time{font-family:var(--head);font-weight:600;color:var(--accent);margin-right:18px}
 .pubs li{margin-bottom:14px}
+.pubs a:not(.yt){font-size:.85em;color:var(--muted);word-break:break-all}
+.pubs strong{font-weight:700}
 .muted,.todo{color:var(--muted)}
 .todo{font-style:italic}
 small{font-size:.8rem}
